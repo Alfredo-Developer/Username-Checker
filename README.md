@@ -1,4 +1,4 @@
-# All in one username checker
+# Username Checker
 Free, open sourced username checker written in NodeJS
 
 Put the words that you would like to check if they are available in the `wordlist.txt` file
