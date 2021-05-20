@@ -6,7 +6,7 @@ Put the words that you would like to check if they are available in the `wordlis
 Install: https://node.js.org/
 
 1. In the directory type `npm i --save`
-2. Then to run the sniper use `node sniper.js`
+2. Then to run the sniper use `node app.js`
 
 By default the checker is configured to check soundcloud usernames. Here is the explanation of the `options.json` file
 `
