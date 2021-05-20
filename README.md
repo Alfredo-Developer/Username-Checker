@@ -29,5 +29,6 @@ Tested Sites:
 - Soundcloud
 - Github
 - Instagram
+- Weheartit
 
 Feel free to test more sites, and if it works. Create a pull request adding that site to the tested sites
