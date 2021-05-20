@@ -9,7 +9,7 @@ Install: https://node.js.org/
 2. Then to run the sniper use `node app.js`
 
 By default the checker is configured to check soundcloud usernames. Here is the explanation of the `options.json` file
-`
+```
 {
     "base": "https://soundcloud.com/{username}",
     "limit": {
@@ -17,7 +17,7 @@ By default the checker is configured to check soundcloud usernames. Here is the 
         "max": 25
     }
 }
-`
+```
 
 The base is the main url that a request will be sent it. For example github.com/{username}, instagram.com/{username}, etc. The limit is what the username requirement is for the websites. That way there wont be 2 letter usernames that are "valid", or whatever the minimum / maximum requirement is that you have required. Anything outside of the range in the requirements will not appear in the `valid.txt` file.
 
