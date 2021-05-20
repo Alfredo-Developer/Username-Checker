@@ -1,3 +1,7 @@
 {
-    "base": "https://soundcloud.com/{username}"
+    "base": "https://soundcloud.com/{username}",
+    "limit": {
+        "min": 3,
+        "max": 25
+    }
 }

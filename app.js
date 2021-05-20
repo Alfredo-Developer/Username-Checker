@@ -2,7 +2,7 @@ const axios = require('axios')
 const fs = require('fs')
 require('colors')
 
-const { base } = require('./options.json')
+const { base, limit } = require('./options.json')
 
 let wordlist = []
 
@@ -51,7 +51,7 @@ const sendRequest = (name) => {
 }
 
 const writeSuccess = (name) => {
-    if(name.length < 3 || name.length > 25) return
+    if(name.length < limit.min || name.length > limit.max) return
     fs.appendFile('valid.txt', `${name}\n`, (err) => {})
 }
 
