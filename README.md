@@ -21,6 +21,10 @@ By default the checker is configured to check soundcloud usernames. Here is the 
 
 The base is the main url that a request will be sent it. For example github.com/{username}, instagram.com/{username}, etc. The limit is what the username requirement is for the websites. That way there wont be 2 letter usernames that are "valid", or whatever the minimum / maximum requirement is that you have required. Anything outside of the range in the requirements will not appear in the `valid.txt` file.
 
+Sometimes it will appear that a name is valid in `valid.txt`, but when it comes time to change your username to that it won't work. That is because websites are either blocking or reserving that name.
+
+For example. Apparently `woman` is available on Soundcloud, when it is not. 
+
 Tested Sites:
 - Soundcloud
 - Github
